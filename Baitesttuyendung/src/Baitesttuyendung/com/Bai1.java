@@ -13,7 +13,7 @@ public class Bai1 {
 			if (arr[i] < 2) {
 				check = false;
 			} else {
-				for (int j = 2; j < Math.sqrt(arr[i]); j++) {
+				for (int j = 2; j <= Math.sqrt(arr[i]); j++) {
 					if (arr[i] % j == 0) {
 						check = false;
 						break;
